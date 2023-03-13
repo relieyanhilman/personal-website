@@ -1,4 +1,13 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding, 50px)
+}
+
 /* display background color black on navbar scroll */
+/* nav .navbar{
+    display: inline-block;
+} */
+
 .navbarScroll.navbarDark {
     background-color: black;
 }
@@ -6,9 +15,9 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpeg');
+    background: url('images/relie_portrait_crop.jpg');
     background-size:cover;
-    position:relative;
+    position:relative
 }
 /* text css above hero image*/
 .hero_title {
@@ -31,6 +40,10 @@
     margin-top: 4rem;
     padding-top: 4rem;
 } */
+section{
+    margin-bottom: 3rem;
+}
+
 #contact {
     padding-bottom: 4rem;
 }
@@ -74,4 +87,37 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+/* about me section*/
+.about-me-1{
+    text-align:justify
+}
+
+section .introduction{
+    font-size: 1.2em;
+}
+
+.github-and-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.github-link{
+    margin-right: 1rem;
+}
+
+.icon-tech-stack{
+    font-size: 1.5rem;
+}
+
+.icon-tech-stack-img{
+    width: 1.5rem;
+    
+}
+.tech-stack{
+    margin-bottom: 2rem;
+    
 }
